@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 var bar = require('../lib/bar'),
     argv = require('optimist')
-              .default('path', __dirname)
+              .default('path', './')
+              .default('autoreload', 'true')
               .argv;
 
 bar.create(argv.path, {
-  nolog: argv.nolog
+  nolog: argv.nolog,
+  autoreload: argv.autoreload === 'true'
 });
