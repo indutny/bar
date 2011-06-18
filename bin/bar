@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+var bar = require('../lib/bar'),
+    argv = require('optimist')
+              .default('path', __dirname)
+              .argv;
+
+bar.create(argv.path, {
+  nolog: argv.nolog
+});
