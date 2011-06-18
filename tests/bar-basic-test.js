@@ -6,7 +6,7 @@ var bar = require('../lib/bar');
 vows.describe('Bar').addBatch({
   'Calling bar.create()': {
     topic: function() {
-      bar.create(__dirname + '/data');
+      return bar.create(__dirname + '/data');
     },
     'should create bar.Bar instance': function(I) {
       assert.instanceOf(I, bar.Bar);
