@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+var bar = require('../../lib/bar');
+
+bar.create(__dirname + '/drinkers');
