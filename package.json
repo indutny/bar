@@ -1,0 +1,15 @@
+{
+  "name": "bar",
+  "description": "",
+  "version": "0.1.0",
+  "author": "Fedor Indutny <fedor.indutny@gmail.com>",
+
+  "dependencies": {
+    "watch": ">= 0.3.2",
+    "eventemitter2": ">= 0.1.3"
+  },
+
+  "scripts": {
+    "test": "vows --spec tests/*-test.js"
+  }
+}
