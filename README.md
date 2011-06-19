@@ -1,5 +1,7 @@
 # Node.js Bar
 
+<img src="https://raw.github.com/indutny/bar/master/bar.jpg" />
+
 *Http-server goes into a bar*
 
 # What is Node.js Bar?
@@ -83,3 +85,7 @@ You should use `hook` and `snap` pattern to share objects between multiple drink
 To find more info look at examples.
 
 #### Author: [Fedor Indutny](http://indutny.com/)
+
+#### Credits
+
+Image by [Creatunco](http://creatunco.deviantart.com/)
