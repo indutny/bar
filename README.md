@@ -86,6 +86,7 @@ To find more info look at examples.
 
 #### Author: [Fedor Indutny](http://indutny.com/)
 
-#### Credits
+
+## Credits
 
 Image by [Creatunco](http://creatunco.deviantart.com/)
