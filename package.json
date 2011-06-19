@@ -1,6 +1,6 @@
 {
   "name": "bar",
-  "description": "",
+  "description": "Node.js framework for building large modular web applications",
   "version": "0.1.0",
   "author": "Fedor Indutny <fedor.indutny@gmail.com>",
 
