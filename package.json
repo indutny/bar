@@ -3,19 +3,24 @@
   "description": "Node.js framework for building large modular web applications",
   "version": "0.1.1",
   "author": "Fedor Indutny <fedor.indutny@gmail.com>",
-
-  "dependencies": {
-    "watch": ">= 0.3.2",
-    "optimist": ">= 0.2.4"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/indutny/bar.git"
   },
-
+  "homepage": "https://github.com/indutny/bar",
+  "license": "MIT",
+  "dependencies": {
+    "watch": "~ 0.3.2",
+    "optimist": "~ 0.2.4"
+  },
   "bin": {
     "node-bar": "./bin/bar"
   },
-
   "main": "./lib/bar",
-
   "scripts": {
     "test": "vows --spec tests/*-test.js"
+  },
+  "devDependencies": {
+    "vows": "~0.7.0"
   }
 }
