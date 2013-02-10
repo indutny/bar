@@ -1,7 +1,7 @@
 {
   "name": "bar",
   "description": "Node.js framework for building large modular web applications",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Fedor Indutny <fedor.indutny@gmail.com>",
   "repository": {
     "type": "git",
